@@ -20,12 +20,15 @@ public class Hashmap {
         String res = "Cloned hashmap"+map1.clone();
         log.info(res);
         logger.info(""+map1.isEmpty());
-        log.info(""+map1.replace(4,"naresh"));
+        String replace = ""+map1.replace(4,"naresh");
+        log.info(replace);
         log.info(map1.get(4));
         log.info(""+map1.getClass());
-        log.info(""+map1.remove(2));
+        logString remove = "Removed: "+map1.remove(2);
+        log.info(remove);
         logger.info(map1.get(2));
         map.clear();
-        log.info("Size of the hashmap: "+map1.size());
+        String res4 = "Size of the hashmap: "+map1.size();
+        log.info(res4);
     }
 }
