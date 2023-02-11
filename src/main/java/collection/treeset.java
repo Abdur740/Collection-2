@@ -3,7 +3,7 @@ package collection;
 import java.util.TreeSet;
 import java.util.logging.Logger;
 
-public class treeset {
+public class Treeset {
     private static final Logger log = Logger.getLogger("InfoLogging");
     public static void main(String[] args) {
             TreeSet<String> name = new TreeSet<String>();
