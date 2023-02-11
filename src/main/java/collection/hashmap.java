@@ -3,7 +3,7 @@ package collection;
 import java.util.HashMap;
 import java.util.logging.Logger;
 
-public class hashmap {
+public class Hashmap {
     public static void main(String[] args)
     {
         Logger log=Logger.getLogger("com-api-jar");
