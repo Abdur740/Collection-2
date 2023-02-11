@@ -17,7 +17,8 @@ public class Hashmap {
         map1.put(6,"Jeeva");
         map1.put(7,"hari");
         logger.info(map1.get(7));
-        log.info("Cloned hashmap"+map1.clone());
+        String res = "Cloned hashmap"+map1.clone();
+        log.info(res);
         logger.info(""+map1.isEmpty());
         log.info(""+map1.replace(4,"naresh"));
         log.info(map1.get(4));
